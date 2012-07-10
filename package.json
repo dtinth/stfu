@@ -1,0 +1,17 @@
+{
+  "name": "stfu",
+  "dependencies": {
+    "connect": "*"
+  },
+  "version": "0.1.1",
+  "description": "serve the files (in the current directory) up",
+  "bin": {
+    "stfu": "./index.js"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)"
+}
