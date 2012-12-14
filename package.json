@@ -13,5 +13,9 @@
   "engines": {
     "node": "*"
   },
-  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)"
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+             "repository" :
+                          { "type" : "git"
+                                       , "url" : "http://github.com/dtinth/stfu.git"
+                                                      }
 }
