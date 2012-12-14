@@ -1,7 +1,12 @@
 
-I can't find a simple script that serves the file from current working directory,
-and `python -m SimpleHTTPServer` is too slow. So I made this. I call it `stfu`, stands for
-__serve the files up!__
+* When you want a quick web server serving files from current directory, just `stfu`.
+* When you want to send a file quickly over HTTP, just `stfu`.
+
+----
+
+I can't find a simple script that serves the files from current working directory,
+and `python -m SimpleHTTPServer` is too slow. So I made this. I call it `stfu`,
+which stands for __serve the files up.__
 
 
 Installation
@@ -14,8 +19,8 @@ Usage
 
     stfu
 
-Will serve on port 33775.
+Will stfu on port 33775.
 
     PORT=12345 stfu
 
-Will serve on port 12345.
+Will stfu on port 12345.
