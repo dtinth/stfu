@@ -24,3 +24,11 @@ Will stfu on port 33775.
     PORT=12345 stfu
 
 Will stfu on port 12345.
+
+
+Directory Listing
+-----------------
+
+To enable directory listing, use
+
+    stfu -d
