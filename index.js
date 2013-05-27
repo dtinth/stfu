@@ -1,8 +1,14 @@
 #!/usr/bin/env node
 var connect = require('connect');
 var port = ~~process.env.PORT || 33775;
+var app = connect.createServer()
 console.log('listening to port ' + port);
-connect.createServer(connect.static(process.cwd())).listen(port);
+
+app.use(connect.static(process.cwd()));
+if (process.argv[2] == '-d') {
+	app.use(connect.directory(process.cwd()));
+}
+app.listen(port);
 
 require('child_process').exec('ifconfig', function(err, stdout, stderr) {
 	if (err) return;
